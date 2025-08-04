@@ -1,0 +1,35 @@
+# Sensitive files - NEVER commit these
+.env
+service-account-key.json
+*.json
+keys/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+yolo_env/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Data directories
+data/output/
+models/*.pt
+
+# Logs
+*.log
